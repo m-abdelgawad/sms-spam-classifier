@@ -1,0 +1,15 @@
+# Configuration file for SMS Spam Classifier Project
+
+# Training configuration
+training:
+  data_file: "data/input/SMSSpamCollection"  # Default path to training data
+  output_model_dir: "../checkpoints"        # Directory to save trained model
+
+# Prediction configuration
+prediction:
+  model_file: ""                            # Path to the trained model
+  sample_sms: ""                            # SMS message for prediction
+
+# Logging configuration
+logging:
+  level: "INFO"                             # Logging level (e.g., DEBUG, INFO, WARNING)
